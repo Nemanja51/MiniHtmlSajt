@@ -1,0 +1,126 @@
+/*
+font-family: 'Courier Prime', monospace;
+font-family: 'Rajdhani', sans-serif;
+*/
+html{
+    height: 100vh;
+}
+body{
+    background:  linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+h1{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+    font-weight: 600;
+}
+
+.container{
+    display: flex;
+}
+
+.content{
+    padding: 50px;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+.navigation{
+    padding: 50px;
+}
+
+.menu{
+    text-align:center;
+    list-style: none;
+    white-space: pre;
+    font-family: 'Courier Prime', monospace;
+    font-weight: 600;
+}
+
+.menu li{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.menu li:hover{
+    background-color: rgb(150, 150, 150);   
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.index-img{
+    float: left;
+    padding-right: 20px;
+}
+
+.early-img{
+    float: right;
+    padding-left: 30px;
+}
+
+.pupinc-img{
+    float: left;
+    padding-right: 20px;
+}
+
+p{
+    background-color: rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: justify;
+}
+
+table {
+    font-family: 'Rajdhani', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  th {
+    padding: 18px;
+  }
+
+  td {
+    padding: 12px;
+  }
+
+  th,
+  td {
+    border: solid 1px #e6e6e6;
+  }
+
+  tr {
+    background-color: rgb(236, 236, 236);
+  }
+
+  tr.second {
+    background-color: #F7F7F7;
+  }
+
+  .t-heading {
+    background-color: #02AD8B;
+    color: white;
+  }
+
+footer{
+     
+      height: 60px;
+      width: 80%;
+      margin-left: 10%;
+     
+}
+
+footer p{
+    
+    text-align: center;
+}
